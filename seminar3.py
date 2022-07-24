@@ -65,3 +65,27 @@ with open('1.txt', 'r', encoding='utf-8') as file:
         if arr[i] - 1 != arr[i - 1]:
             print((arr[i - 1] + arr[i]) // 2)
 '''
+import random
+import pathlib
+
+k = int(input('Введите коэффициент: '))
+a = int(random.randint(0,100))
+b = int(random.randint(0,100))
+c = int(random.randint(0,100))
+
+if a != 0:
+first_part = (str(a) + "x^" + str(k) + " + ")
+else:
+first_part = (str())
+
+if b != 0:
+second_part = (str(b) + "x" + " + ")
+else:
+second_part = (str())
+
+if c != 0:
+third_part = (str(c) + " = 0")
+else:
+third_part = (str())
+
+print(f'{first_part}{second_part}{third_part}')
