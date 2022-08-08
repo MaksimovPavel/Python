@@ -1,0 +1,7 @@
+Surname;city;street;house;flat
+Ivanov;Saint-Petersburg;Nevskii_prospect;22;14
+Efremov;Moscow;Tverskaya_street;33;45
+Davidivich;Tyla;Lenina_street;20;4
+Maksimov;Rostov-on-Don;Pobedy_street;13;44
+Morozov;Saint-Petersburg;Kalinina_street;34;566
+Sidorov;Kazan;Fazylova_street;33;21

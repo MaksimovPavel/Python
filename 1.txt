@@ -1,0 +1,7 @@
+id;name;surname;city
+1;Ivan;Ivanov;Saint-Petersburg
+2;Semen;Efremov;Moscow
+3;Anna;Davidivich;Tyla
+4;Pavel;Maksimov;Rostov-on-Don
+5;Maksim;Morozov;Saint-Petersburg
+6;Igor;Sidorov;Kazan
