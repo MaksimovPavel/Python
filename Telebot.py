@@ -9,32 +9,12 @@ bot = Bot(token='5403064163:AAHyOvzFeaP-v3MiNPCEBeifyN1BJdCxWQY')
 updater = Updater(token='5403064163:AAHyOvzFeaP-v3MiNPCEBeifyN1BJdCxWQY')
 dispatcher = updater.dispatcher
 
-
-@bot.message_handler(content_types=['sticker', 'pinned_message', 'photo', 'audio', 'video'])
-def warning(message):
-    bot.send_message(
-        message.chat.id, f'Я тебя не понимаю. Введи: /help.')
-
-
-@bot.message_handler(commands=['start'])
-def start(message):
-    bot.send_message(
-        message.chat.id, f'Привет, *{message.from_user.first_name}!*\nВ любой непонятной ситуации введи\nкоманду: /help\nДа! кнопки скоро появятся ;)\nЧтобы вызвать главное меню введи: /main')
-
-
-@bot.message_handler(commands=['help'])
-def help(message):
-    bot.send_message(
-        message.chat.id, f'/start - начать сначала (перезапустить бота)\n/main - главное меню\n/help - вызвать справку')
-
-
 name_it = ''
 surname_it = ''
 number_it = ''
 email_it = ''
 user_id_it = ''
 new_number_it = ''
-
 
 @bot.message_handler(content_types=['text'])
 def main(message):
